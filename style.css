@@ -1,0 +1,37 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #333;
+    color: rgb(248, 241, 241);
+    padding: 1em;
+    text-align: center;
+  }
+  
+  header nav a {
+    color: rgb(249, 245, 245);
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
